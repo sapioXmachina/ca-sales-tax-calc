@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Sales Tax Calculator</title>
+    <!-- <link rel="stylesheet" href="styles/all.min.css" /> -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="calculator1">
+        <h1>California Sales Tax Calculator</h1>
+
+        <ol>
+            <li>Enter the Total Purchase Amount.</li>
+            <li>Click on Calculate Tax button to see the tax amount.</li>
+        </ol>
+
+        <form id="sales-tax-form">
+            <label for="expense">Total Purchase Amount</label>
+            <br />
+            <input id="expense" type="number" />
+        </form>
+
+        <div id="button-container">
+            <button id="total-button">Calculate Tax</button>
+        </div>
+
+        <h2>Results:</h2>
+        <p id="results"></p>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
